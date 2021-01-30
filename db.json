@@ -23,7 +23,8 @@
       "alternatives": [
         "Que burro!",
         "Da zero para ele!",
-        "Ambas opções acima"
+        "Ambas opções acima",
+        "%elemento"
       ]
     },
     {
@@ -33,12 +34,15 @@
       "answer": 0,
       "alternatives": [
          "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "background: gradient(#e66465, #9198e5);",
+         "background: linear(#e66465, #9198e5);",
+         "background: g(#e66465, #9198e5);"
       ]
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
   ],
   "theme": {
     "colors": {
