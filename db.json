@@ -1,48 +1,114 @@
 {
   "bg": "https://i.pinimg.com/736x/3c/9a/89/3c9a89c796d7bf4f996fbfabb2fd010c.jpg",
   "title": "Quiz Do Chaves",
-  "description": "Teste os seus conhecimentos sobre o programa de TV clássico chamado Chaves",
+  "description": "Mostre os seus conhecimentos sobre o programa de TV clássico chamado Chaves",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xT1TTBAzDPt5O8vKtW/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://i.makeagif.com/media/11-07-2014/Lebso9.gif",
+      "title": "Qual a comida favorita de Chaves?",
+      "description": "Facinho",
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Churros",
+        "Sanduiche de Presunto",
+        "Bolo de Baunilha",
+        "Pipoca Doce"
       ]
-    },
+    },    
     {
       "image": "https://media.giphy.com/media/l1J9sBuo0k58FjOx2/giphy.gif",
       "title": "O que Chaves diz nessa parte?",
-      "description": "Teste",
+      "description": "Coitado do Nhonho",
       "answer": 2,
       "alternatives": [
         "Que burro!",
         "Da zero para ele!",
         "Ambas opções acima",
-        "%elemento"
+        "Nenhuma das opções acima"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/l1J9JpuwtGnjCKz0A/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/3ohhwyJ4bC4zQ6sC6Q/giphy.gif",
+      "title": "Qual dos empregos abaixo o Seu Magruga não teve?",
+      "description": "Ué? Como assim? Não é possível",
+      "answer": 3,
+      "alternatives": [
+        "Advogado de defesa",
+        "Jogador de Boliche",
+        "Técnico de futebol americano",
+        "Nadador Profissional"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/CT0hoa2XEp9oQ/giphy.gif",
+      "title": "Qual é música do Chaves que dá um 'elogio' a cada um dos seus amigos vizinhos?",
+      "description": "Isso, Isso, Isso",
+      "answer": 1,
+      "alternatives": [
+        "Se Você É Jovem Ainda",
+        "Que Bonita a Sua Roupa",
+        "Boa Noite, Vizinhança",
+        "Mamãe Querida"
+      ]
+    },
+    {
+      "image": "https://i.makeagif.com/media/1-18-2016/DABjZM.gif",
+      "title": "Para onde Chaves e seus amigos vizinhos foram viajar?",
+      "description": "Férias UHUUUUUUUU",
+      "answer": 2,
+      "alternatives": [
+        "Alcapuco",
+        "Alcapulco",
+        "Acapulco",
+        "Alpaca"
+      ]
+    },
+    {
+      "image": "https://thumbs.gfycat.com/GrippingWavyAphid-size_restricted.gif",
+      "title": "Quem perde no duelo entre Seu Madruga e Professor Girafales?",
+      "description": "Davi vs Golias",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);",
-         "background: linear(#e66465, #9198e5);",
-         "background: g(#e66465, #9198e5);"
+        "Quico",
+        "Seu Madruga",
+        "Professor Girafales",
+        "Chaves"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xT1TTBAzDPt5O8vKtW/giphy.gif",
+      "title": "Qual o nome desse herói do Chaves?",
+      "description": "Melhor Herói Brasileiro",
+      "answer": 0,
+      "alternatives": [
+        "Chapolin Colorado",
+        "Chapulin Colorado",
+        "Chapulin Colarado",
+        "Xapolin Colorado"
+      ]
+    },    
+    {
+      "image": "https://media.giphy.com/media/xUOxeZnupwsglN8F0I/giphy.gif",
+      "title": "Qual vilão do Chapolin Colorado disse que matou o Mar Morto? ",
+      "description": "Bem difícil essa hein?",
+      "answer": 3,
+      "alternatives": [
+         "Tripa Seca",
+         "Quase Nada",
+         "Racha Cuca",
+         "Alma Negra"
       ]
     }
   ],
   "external": [
     "https://aluraquiz-css.omariosouto.vercel.app/",
-    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/",
+    "https://fastfood-quiz.fbreuil.vercel.app/",
+    "https://naruto-quiz.llofyy.vercel.app/",
+    "https://1sec-quiz.victoroda.vercel.app/",
+    "https://alura-imersao-react-next.rafaelyano.vercel.app/",
+    "https://alura-quiz-avengers.fernanda-kipper.vercel.app/",
+    "https://quiz-games.gabrielwolf-dev.vercel.app/"
   ],
   "theme": {
     "colors": {

@@ -32,6 +32,26 @@ Widget.Header = styled.header`
   }
 `;
 
+Widget.DivResult = styled.div`
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top:0;
+  }
+`;
+
+Widget.DivAnswer = styled.div`
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom:0;
+  }
+`;
+
 Widget.Content = styled.div`
   padding: 24px 32px 32px 32px;
   & > *:first-child {
@@ -62,6 +82,18 @@ Widget.Topic = styled.a`
   &:focus {
     opacity: .5;
   }
+`;
+
+Widget.Line = styled.span`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  display: block;
+  text-align:center;
 `;
 
 export default Widget;

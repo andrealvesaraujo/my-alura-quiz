@@ -20,30 +20,37 @@ function ResultWidget({ results }) {
       </Widget.Header>
 
       <Widget.Content>
-        <p>
-          Você acertou
-          {' '}
-          {/* {results.reduce((somatoriaAtual, resultAtual) => {
-            const isAcerto = resultAtual === true;
-            if (isAcerto) {
-              return somatoriaAtual + 1;
-            }
-            return somatoriaAtual;
-          }, 0)} */}
-          {results.filter((x) => x).length}
-          {' '}
-          perguntas
-        </p>
+        <Widget.DivResult>
+          <p>
+            Você acertou
+            {' '}
+            {/* {results.reduce((somatoriaAtual, resultAtual) => {
+              const isAcerto = resultAtual === true;
+              if (isAcerto) {
+                return somatoriaAtual + 1;
+              }
+              return somatoriaAtual;
+            }, 0)} */}
+            {results.filter((x) => x).length}
+            {' '}
+            perguntas
+          </p>
+        </Widget.DivResult>
         <ul>
           {results.map((result, index) => (
             <li key={`result__${result}`}>
-              #
-              {index + 1}
-              {' '}
-              Resultado:
-              {result === true
-                ? 'Acertou'
-                : 'Errou'}
+              <Widget.Line
+                as="span"
+              >
+                #
+                {index + 1}
+                {' '}
+                Resultado:
+                {' '}
+                {result === true
+                  ? 'Acertou'
+                  : 'Errou'}
+              </Widget.Line>
             </li>
           ))}
         </ul>
@@ -150,8 +157,10 @@ function QuestionWidget({
           <Button type="submit" disabled={!hasAlternativeSelected}>
             Confirmar
           </Button>
-          {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
-          {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
+          {isQuestionSubmited && isCorrect
+            && <Widget.DivAnswer><p>Você acertou!</p></Widget.DivAnswer>}
+          {isQuestionSubmited && !isCorrect
+            && <Widget.DivAnswer><p>Você errou!</p></Widget.DivAnswer>}
         </AlternativesForm>
       </Widget.Content>
     </Widget>
